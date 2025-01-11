@@ -1,0 +1,218 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+body{
+    padding: 10px;
+    background-color: black;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    margin: 7px;
+    padding: 7px;
+    padding-bottom: 11px;
+    border-radius: 1cap;
+
+
+}
+.changecolor{
+    fill : white;
+}
+.homebar{
+    margin-left: 10px;
+    align-self: left;
+
+}
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500px;
+    color: white;
+}
+
+.homebar{
+    gap: 10px;
+    margin: 10px;
+}
+.homepage{
+    display: flex;
+    
+   
+}
+.left{
+   
+    width: 25vw;
+    min-height: 100%;
+    background-color: #000000;
+   
+    
+}
+.library{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    padding: 20px;
+    gap: 30px;
+    
+}
+
+.right{
+    margin: 7px;
+    width: 75vw;
+    height: 98.5vh;
+    
+    background-color: #121212;
+    border-radius: 1cap;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.gap{
+    justify-content: space-between;
+}
+.g-2{
+    gap: 20px;
+}
+.box-library{
+    background-color: #1f1f1f;
+ min-width: 10%;
+ padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+ border-radius: 1cap;
+ color: white;
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 2cap;
+    border: none;
+}
+
+.font{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.rotate:hover{
+    transition-duration: 0.5s;
+    transform: rotate(90deg);
+}
+.minwidth{
+    min-width: 100%;
+}
+
+
+.f-2{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+    gap: 13px;
+    font-size: 13px;
+}
+
+.header{
+    background-color:#121212 ;
+    margin: 21px;
+    border-radius: 1cap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play{
+    margin: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.t-2{
+    font-size: 30px;
+    color: white;
+}
+
+.bgcol-grey{
+    background-color: #121212;
+    color: white;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 11.5vw;
+    height: 13.5vw;
+    background-color: #1f1f1f;
+}
+
+.border-rad{
+    border-radius: 1cap;
+}
+
+.video-folder{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow-y: scroll;
+    height: 65vh;
+}
+
+.sec{
+    display: flex;
+gap: 40px;
+}
+
+.fit{
+    object-fit: contain;
+   margin: 11px;
+   width: 9vw;
+
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2e2e2e; /* Dark track background */
+    border-radius: 10px; /* Rounded track edges */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Dark gray thumb */
+    border-radius: 10px; /* Rounded thumb edges */
+    border: 2px solid #2e2e2e; /* Padding around the thumb for separation */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Lighter gray on hover */
+  }
+  
+  .loginbtn:hover{
+    background-color: #121212;
+    color: white;
+  }
+
+  .signbtn:hover{
+    background-color:white ;
+    color: black;
+    scale: 1;
+    transition: scale
+    ;
+  }
