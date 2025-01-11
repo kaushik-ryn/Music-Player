@@ -172,11 +172,21 @@ button{
     overflow-y: scroll;
     height: 65vh;
 }
+.video:hover{
+    transform: scale(1.03);
+    transition-duration: 200ms;
+}
+.button:hover{
+    transform: scale(1.03);
+    transition-duration: 200ms;
+}
 
 .sec{
+    padding: 10px;
     display: flex;
 gap: 40px;
 }
+
 
 .fit{
     object-fit: contain;
